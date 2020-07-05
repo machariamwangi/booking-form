@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking form</title>
+</head>
+<body>
+    <h3>Hotel Reservation Form </h3>
+    
+    <form>
+        <fieldset>
+            <legend>Booking Details:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter your second name"><br><br>
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country" placeholder="Enter your Country"><br><br>
+            <label for="gender"> Select Gender:</label> <br>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select> <br ><br >
+              <label for="checkIn">Check In:</label><br>
+            <input type="date" id="checkIn" name="checkIn"><br><br>
+
+            <label for="checkOut">Check Out:</label><br>
+            <input type="date" id="checkOut" name="checkOut" ><br><br>
+            <label for="room_type">Room/Suite Type</label> <br>
+            <select  id="room_type" name="room_type">
+                <option value="0" selected>Select Room/Suite </option>
+                <option value="1"> Standard </option>
+                <option value="2"> Deluxe </option>
+                <option value="3"> Superior Deluxe </option>
+                <option value="4"> Premier Deluxe  </option>
+                <option value="5"> Executive Suite </option>
+                <option value="6"> Junior Suite </option>
+                <option value="7"> Honeymoon Suite </option>
+            </select> <br> <br>
+
+            <label for="NoOfAdults">Number Of Adults:</label><br>
+            <input type="number" id="NoOfAdults" name="NoOfAdults" placeholder="Enter number of Adults">  <br ><br >
+
+            <label for="NoOfChild">Number Of childrens:</label><br>
+            <input type="number" id="NoOfChild" name="NoOfChild" placeholder="Enter number of kids">  <br ><br >
+            <label for="phone">Enter a phone number:</label><br>
+            <input type="tel" id="phone" name="phone"
+            placeholder="123-45-678"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br> <br>
+
+            <input type="submit" value="Submit">
+          </fieldset>
+
+        <!-- <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <label for="gender"> Select Gender</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>  -->
+        
+    </form>
+    
+</body>
+</html>
